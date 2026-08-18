@@ -16,7 +16,7 @@ Extensive look at the course project, its past editions and the "Concorso Accatt
 3. Client-Server architectures and Internet Protocols
 
 
-### Internet
+## Internet
 
 INTERconnected NETworks: interconnected webs of webs; 
 We call "best effort" Internet the current state of the Internet: using TCP/IP protocol we can guarantee a reliable but not efficient communication
@@ -30,7 +30,7 @@ Web: a huge set of softwares and protocols installed on different computers; in 
 The more distributed the infrastrcature gets the slower it tends to become.
 
 
-### HTTP Protocol
+## HTTP Protocol
 
 It's pretty simple, it establishes a connection between client and server in order to exchange documents; 
 Every document is uniquely identified via an URL: these linkings can be inside the document, between same-server documents and even different-servers documents.
@@ -65,7 +65,7 @@ It usually offers:
 3. Validation service
 
 
-### OS, Browser and Resolution statistics
+## OS, Browser and Resolution statistics
 
 ![OS_statistics](../assets/os_statistics.png)
 
