@@ -25,7 +25,7 @@ ISP (Internet Service Provider) is the entity who provide the physical connectio
 
 Web: a huge set of softwares and protocols installed on different computers; in an abstract way we can define it as a set of interconnected documents.
 
-![distributed_files](../../assets/distributed_files.png)
+![distributed_files](../assets/distributed_files.png)
 
 The more distributed the infrastrcature gets the slower it tends to become.
 
@@ -49,7 +49,7 @@ When the server receive our request it replies with:
 3. Verbose error 
 
 The possible state are:
-![http_states](../../assets/http_states.png)
+![http_states](../assets/http_states.png)
 
 4** and 5** errors code are the ones we must treat in some way
 
@@ -67,7 +67,7 @@ It usually offers:
 
 ### OS, Browser and Resolution statistics
 
-![OS_statistics](../../assets/os_statistics.png)
+![OS_statistics](../assets/os_statistics.png)
 
 W3C bases these statistics are "false" because they are mainly from developers
 This tells us a good practice: never develop for a "specific" type of OS or Browser because they tend to evolve during a website lifespan.
