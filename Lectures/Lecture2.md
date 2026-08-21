@@ -72,9 +72,9 @@ Some semplification are:
 
 
 Ignored tags:
-1. Breakline non identified by "<br>" and not contained inside a "<pre>" tag
+1. Breakline non identified by "br>" and not contained inside a "pre>" tag
 2. Multiple tabs
-3. Nested "<p>" tags
+3. Nested "p>" tags
 4. Unrecognized tags
 5. Comments (except for "--" which is an error)
 
@@ -82,7 +82,7 @@ Base HTML5 structure:
 ![HTML5_base_structure](../assets/HTML5_base_structure.png)
 
 We as developer must define while into the first 512 lines the charset which for HTML5 is:
-"<meta charset="UTF-8" />"
+"meta charset="UTF-8" />"
 
 
 ## Head section
@@ -93,7 +93,7 @@ Everything we define inside the Head section (except for the Title) are just ins
 2. Link: defines the links with external resources (CSS, shortcut icon, etc..)
     - most common ones are "href", "rel" 
     - ![separation_principle](../assets/common_head_attributes.png)
-3. Base: defines the base link route (eg. " <base href="/myfolder/"/> ")
+3. Base: defines the base link route (eg. " base href="/myfolder/"/> ")
 
 ### META tags
 
@@ -106,7 +106,7 @@ There are 2 types of META tags:
 1. http-equiv
 2. name
 
-<meta name = "viewport" content= "width= device-width" /> to correctly adapt the viewport and CSS handling for mobile
+meta name = "viewport" content= "width= device-width" /> to correctly adapt the viewport and CSS handling for mobile
 
 #### http-equiv
 
@@ -127,7 +127,7 @@ KEYWORDS MUST BE USED IN THE ACCADEMIC PROJECT
 
 ## Body section
 
-The part between the <body> tags is called the document body; This section contains the real page itself. Here are inserted images, sounds, videos, text, links, etc..
+The part between the body> tags is called the document body; This section contains the real page itself. Here are inserted images, sounds, videos, text, links, etc..
 
 The body section contains all the necessary tags for describing the structure of the document: MUST NOT be used elements that are relativve to the presentation
 
