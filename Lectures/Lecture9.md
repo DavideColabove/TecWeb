@@ -1,6 +1,6 @@
 # Description
 
-22 oct. 2025 - CSS part 5, and Accessibility part 1
+27 oct. 2025 - CSS part 5, and Accessibility part 1
 
 
 ## Page layout in CSS3
