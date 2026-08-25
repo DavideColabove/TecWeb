@@ -54,5 +54,83 @@ As you can see from the following example we:
 ### Position-based pseudo-classes
 1. :nth-child(n) is the n-th child element of his father
     - eg. li:nth-child(3) every bulleted list element in 3rd position (third child of an ul)
+2. :nth-last-child(n)
+3. :nth-of-type(n) (eg. p>) is the n-th child element of the same type (eg. the n-th p> child) of his father
+4. :only-child is the only child element of his father
+5. :only-of-type is the only child element of his father of that type
 
-42.58
+![separation_principle](../assets/table_example.png)
+
+And that's how you implement it
+![separation_principle](../assets/table_implementation.png)
+
+
+## CSS variables
+
+Often, in layout definition you can see some common traits as:
+1. Colors
+2. Font dimensions 
+3. etc...
+
+Pre-processors requires prefixes: eg. $ in Sass and @ in LESS
+
+You define variables as --variableName, and you can use them with the function var(--variableName)
+
+By design variables are local (exists only inside that specific block) but you can also define them globally inside the :root selector
+![separation_principle](../assets/variables1.png)
+
+
+## RGBA & Opacity
+
+CSS3 defines a new color model which is called RGBA where A stands for Alpha channel where A is representing the opacity. 
+The A value is has to be set in a range between 0 (transparent) and 1 (opaque).
+
+If you want to do that to an element you can use the opacity attribute:
+![separation_principle](../assets/opacity.png)
+
+## Shadows
+
+You can use shadows on text and elements, it allows you to specify the direction, radius and shade of color:
+
+![separation_principle](../assets/shadows1.png)
+
+The syntax is similar for elements (especially boxes) too: 
+![separation_principle](../assets/shadows2.png)
+
+You can create your custom shadows at https://css3generator.com
+
+
+## Transitions
+
+Here there are some example:
+1. transition-property: the property to apply
+2. transition-duration
+3. transition-timing-function: function that model the transition's behaviour (ease, linear, ease-in, ease-out, cubic-beizer, etc..)
+
+### HTML
+
+![separation_principle](../assets/transitionHTML.png)
+
+### CSS
+
+![separation_principle](../assets/transitionCSS.png)
+
+In order to be accessible and to be assured it will work on any modern browser we use 
+![separation_principle](../assets/transitionbrowsers.png)
+
+
+## Media queries
+
+Media queries can be found inside CSS with @media or as an attribute for a tag link; They are used to assign different style sheets based on different possibilities:
+1. screen vs print
+2. desktop vs mobile etc...
+
+![separation_principle](../assets/mediaqueries1.png)
+
+or in CSS3: 
+
+![separation_principle](../assets/mediaqueries2.png)
+
+and also allows to manage device orientation:
+
+![separation_principle](../assets/mediaqueries3.png)
