@@ -58,7 +58,7 @@ Do not use maps images, especially on the server-side
 
 On this example the first one obviously need an alt-text, wheter the second one explains everything and an alt-text would be redoundant
 
-### Image replacement
+## Image replacement
  
 It is a tecnique used to provide a graphic alternative for a text, replacing it using CSS images
 
@@ -68,6 +68,7 @@ PROs:
 3. We use web standards instead of ad-hoc solutions
 4. It is possibile to edit images just by editing the sylesheet
 
+### First solution
 The first solution is:
 1. Base idea: hide the text and place an image as background image for the empy container
     - Browsers show the image
