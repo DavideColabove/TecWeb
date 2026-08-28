@@ -39,7 +39,7 @@ The worst case is CAPTCHA which is not accessible.
 6. Provide clear navigation mechanisms
     - Provide navbars, website maps, more informations etc.. can be helpful for the user to find what he's looking for
 
-### Roubst
+### Robust
 
 7. Ensure that pages using new technologies are transformed in an elegant way 
     - Web pages MUST be accessibile even if new technologies are disabled or not supported
