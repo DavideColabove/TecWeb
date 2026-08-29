@@ -103,4 +103,51 @@ Clearly this links chaining suggests SEs that UniPD math website is really trust
 
 ## Website design
 
-44.12 min
+## Designing 
+1. Users identifications: requirement analysis
+2. Design of the information base: data and information
+3. Feature design: applications and services
+4. Organization design: accessibility and usability
+5. Graphical design: user interface and style
+6. Physical design: tools and maintenance
+
+### Requirement analysis 
+
+1. (Internal and External) users category identification
+2. If the website is addressed to a more generic audience you'll look for homogenous users group
+3. Goals definition by users classes, in general, informational and functionality terms
+4. If the user base is very heterogeneous you have to consider to create multiple websites
+5. This stage if fundamental for the following stages and have to be done carefully and will be used at the end as an evaluation metric
+6. An pre-existing website version can be used for requirements analysis using the collected data
+
+### Design of the information base
+
+Contents are a predominant part of a website: advanced technologies and wonderful UI isn't enough for reaching people, the website need to be filled with interesting and well written information.
+
+1. Input: from previous stage
+2. Output: informations to be contained into the website
+
+Keep in mind to check for copyright on every new source used (images, sounds, fonts etc..)
+
+
+## Designing a website
+
+Designing a website is a complex activitiy which rely on various disciplinary fields, so that the development team includes:
+
+1. Project Manager
+    - Team coordinator, budgeting, scheduling etc..
+2. Information Designer
+    - Expert in knowledge categorization
+    - Responsible for website structuring, classification, research and website navigation
+3. Web Designer
+    - Designs the layout
+4. Group of technical experts (nets, web standards, database, GUI)
+    - Point of contact for the state of the art of the technology
+    - Server admin and network master
+    - Developing and mantaining serices and applications
+5. Editorial Manager
+    - Responsible for language use and text adaptation
+6. Marketing Expert
+    - Identifies website goal and user target
+7. Usability expert
+    - Evaluates prototypes and end result
