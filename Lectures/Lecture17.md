@@ -1,6 +1,6 @@
 # Description
 
-18 Nov. 2025 - Web design part 2, Web Design Principle part 1
+18 Nov. 2025 - Web design part 2, Web Design Principles part 1
 
 ## Designing 
 
